@@ -1,98 +1,128 @@
-# PROJECT BACKGROUND
+# Project Background
 
-"Costumer_shopping_behavior" is an database
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+This project analyzes customer shopping behavior for a retail business operating across multiple product categories, including Clothing, Accessories, Footwear, and Outerwear. The company follows a direct-to-consumer model, capturing transactional, demographic, and 
+behavioral data such as purchase amount, subscription status, review ratings, discounts, and purchase frequency. From a data analyst’s perspective, the main objective of this analysis was to understand how customer characteristics, purchasing patterns, and subscription 
+behavior impact revenue generation and overall customer value. The insights aim to support decisions related to customer segmentation, pricing strategies, promotions, and subscription optimization.
 
-Insights and recommendations are provided on the following key areas:
+## Insights and recommendations are provided across the following key areas:
 
-Category 1:
-Category 2:
-Category 3:
-Category 4:
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+- Customer Demographics & Segmentation
+- Spending Behavior & Revenue Drivers
+- Subscription & Loyalty Analysis
+- Product & Category Performance
 
-Targed SQL queries regarding various business questions can be found here [link].
+The Python code used to inspect and clean the data for this analysis can be found here: [SQL cleaning & inspection link].
+Targeted SQL queries addressing specific business questions can be found here: [SQL business questions link].
+An interactive Power BI dashboard used to explore customer behavior and sales trends can be found here: [Power BI dashboard link].
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+## Data Structure & Initial Checks
 
-Data Structure & Initial Checks
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+The company’s main database consists of a single consolidated table created after data cleaning and preparation, containing approximately 3.9K customer records.
 
-Table 2:
-Table 3:
-Table 4:
-Table 5:
-[Entity Relationship Diagram here]
+Key fields include:
 
-Executive Summary
+Customer demographics: age, gender, age group
+Transactional data: purchase amount, item purchased, category, shipping type
+Behavioral data: previous purchases, purchase frequency, subscription status
+Promotional data: discount applied
+Customer feedback: review rating
+
+During the preparation phase, missing review ratings were imputed using the median rating per category, column names were standardized, categorical purchase frequencies were converted into numeric values (days), and redundant promotional variables were removed to avoid 
+duplicated information.
+
+
+## Executive Summary
+
 Overview of Findings
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+The analysis shows that customer spending is strongly influenced by product category, age group, and subscription status. Clothing consistently drives the highest revenue, while younger and middle-aged customers represent the most valuable segments. Subscription status 
+is associated with higher overall revenue contribution, suggesting loyalty-driven value creation. If a stakeholder were to take away three main insights from this project, they should know:
 
-Insights Deep Dive
-Category 1:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- A small set of product categories drives the majority of revenue.
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- Customer age and purchasing history are strong indicators of lifetime value.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- Subscribed and repeat customers contribute disproportionately to total revenue.
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 1]
 
-Category 2:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+## Insights Deep Dive
+Category 1: Customer Demographics & Segmentation
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- Main Insight 1:
+Young Adult and Middle-Aged customers generate the highest total revenue, outperforming both Adult and Senior groups.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- Main Insight 2:
+Repeat and loyal customers (more than two previous purchases) form a significant portion of the customer base, indicating strong retention potential.
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+- Main Insight 3:
+Gender-based revenue differences exist, with one gender contributing slightly more to total revenue, suggesting opportunities for targeted marketing.
 
-[Visualization specific to category 2]
+- Main Insight 4:
+Customers with higher previous purchase counts are more likely to engage with subscriptions.
 
-Category 3:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+![image alt]()
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+[Visualization: Revenue and Sales by Age Group]
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Category 2: Spending Behavior & Revenue Drivers
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 1:
+The average purchase amount is approximately $59.76, serving as a useful benchmark for identifying high-value transactions.
 
-[Visualization specific to category 3]
+Main Insight 2:
+Customers who use discounts but still spend above the average purchase amount represent a high-value promotional segment.
 
-Category 4:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 3:
+Express shipping users show slightly higher average purchase amounts compared to standard shipping customers.
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 4:
+Purchase frequency, when converted into numeric days, reveals that more frequent buyers tend to generate higher cumulative revenue.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+[Visualization: Average Purchase Amount & Revenue Distribution]
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Category 3: Subscription & Loyalty Analysis
 
-[Visualization specific to category 4]
+Main Insight 1:
+Subscribed customers generate higher total revenue compared to non-subscribers.
 
-Recommendations:
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following:
+Main Insight 2:
+Repeat buyers (more than five previous purchases) are more likely to be subscribed, reinforcing the relationship between loyalty and subscriptions.
 
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+Main Insight 3:
+While the subscriber base is smaller, its revenue contribution is disproportionately high.
 
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+Main Insight 4:
+Subscription status can be used as a proxy for customer lifetime value.
 
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+[Visualization: Subscription Status vs Revenue]
 
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+Category 4: Product & Category Performance
 
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+Main Insight 1:
+Clothing is the top-performing category in both total sales and revenue.
 
-Assumptions and Caveats:
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+Main Insight 2:
+Accessories and Footwear show moderate performance, while Outerwear contributes the least.
 
-Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+Main Insight 3:
+Certain products consistently rank among the highest in average review ratings, indicating quality-driven demand.
 
-Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+Main Insight 4:
+Products with higher discount application rates still maintain strong sales volumes, suggesting effective promotional strategies.
 
-Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+[Visualization: Sales and Revenue by Category]
+
+Recommendations
+
+Based on the insights above, the business should consider the following actions:
+
+Focus marketing efforts on Young Adult and Middle-Aged segments, as they generate the highest revenue.
+
+Expand subscription incentives for repeat buyers to maximize lifetime value.
+
+Leverage high-performing product categories, particularly Clothing, when launching promotions.
+
+Use discounts strategically, targeting customers who already exhibit higher-than-average spending behavior.
+
+Invest in top-rated products, as customer satisfaction aligns strongly with sales performance.
