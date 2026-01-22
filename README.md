@@ -84,7 +84,7 @@ Express shipping users show slightly higher average purchase amounts compared to
 - Main Insight 4:
 Purchase frequency, when converted into numeric days, reveals that more frequent buyers tend to generate higher cumulative revenue.
 
-![Data_Analysis_Costumer_Behavior](Avg_purchase_amount.png) ![Data_Analysis_Costumer_Behavior](Revenue_by_Category.png)
+![Data_Analysis_Costumer_Behavior](Avg_purchase_amount.png) ![Data_Analysis_Costumer_Behavior](Revenue_By_Category.png)
 
 
 
