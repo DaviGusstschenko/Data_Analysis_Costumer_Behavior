@@ -47,7 +47,8 @@ is associated with higher overall revenue contribution, suggesting loyalty-drive
 
 
 ## Insights Deep Dive
-Category 1: Customer Demographics & Segmentation
+
+### Category 1: Customer Demographics & Segmentation
 
 - Main Insight 1:
 Young Adult and Middle-Aged customers generate the highest total revenue, outperforming both Adult and Senior groups.
@@ -61,12 +62,12 @@ Gender-based revenue differences exist, with one gender contributing slightly mo
 - Main Insight 4:
 Customers with higher previous purchase counts are more likely to engage with subscriptions.
 
-![image alt](Sales_by_Age_Group.png)
+![Data_Analysis_Costumer_Behavior](Sales_by_Age_Group.png)
 
 
 [Visualization: Revenue and Sales by Age Group]
 
-Category 2: Spending Behavior & Revenue Drivers
+### Category 2: Spending Behavior & Revenue Drivers
 
 Main Insight 1:
 The average purchase amount is approximately $59.76, serving as a useful benchmark for identifying high-value transactions.
@@ -82,7 +83,7 @@ Purchase frequency, when converted into numeric days, reveals that more frequent
 
 [Visualization: Average Purchase Amount & Revenue Distribution]
 
-Category 3: Subscription & Loyalty Analysis
+### Category 3: Subscription & Loyalty Analysis
 
 Main Insight 1:
 Subscribed customers generate higher total revenue compared to non-subscribers.
@@ -98,7 +99,7 @@ Subscription status can be used as a proxy for customer lifetime value.
 
 [Visualization: Subscription Status vs Revenue]
 
-Category 4: Product & Category Performance
+### Category 4: Product & Category Performance
 
 Main Insight 1:
 Clothing is the top-performing category in both total sales and revenue.
@@ -114,16 +115,12 @@ Products with higher discount application rates still maintain strong sales volu
 
 [Visualization: Sales and Revenue by Category]
 
-Recommendations
+## Recommendations
 
 Based on the insights above, the business should consider the following actions:
 
-Focus marketing efforts on Young Adult and Middle-Aged segments, as they generate the highest revenue.
-
-Expand subscription incentives for repeat buyers to maximize lifetime value.
-
-Leverage high-performing product categories, particularly Clothing, when launching promotions.
-
-Use discounts strategically, targeting customers who already exhibit higher-than-average spending behavior.
-
-Invest in top-rated products, as customer satisfaction aligns strongly with sales performance.
+- Focus marketing efforts on Young Adult and Middle-Aged segments, as they generate the highest revenue.
+- Expand subscription incentives for repeat buyers to maximize lifetime value.
+- Leverage high-performing product categories, particularly Clothing, when launching promotions.
+- Use discounts strategically, targeting customers who already exhibit higher-than-average spending behavior.
+- Invest in top-rated products, as customer satisfaction aligns strongly with sales performance.
