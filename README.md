@@ -15,11 +15,11 @@ behavior impact revenue generation and overall customer value. The insights aim 
 - Subscription & Loyalty Analysis
 - Product & Category Performance
 
-The Python code used to inspect and clean the data for this analysis can be found here: [[3. Customer_Data_Cleaning.py](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/3._Customer_Data_Cleaning.py)
+The Python code used to inspect and clean the data for this analysis can be found here: [[Customer_Data_Cleaning.py](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/Customer_Data_Cleaning.py)
 
-Targeted SQL queries addressing specific business questions can be found here: [[4. Data_analysis_SQL.sql](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/4._Data_analysis_SQL.sql)].
+Targeted SQL queries addressing specific business questions can be found here: [[Data_analysis_SQL.sql](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/Data_analysis_SQL.sql)].
 
-An interactive Power BI dashboard used to explore customer behavior and sales trends can be found here: [[5. Customer_Behavior_DashBoard.pbix](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/5._Customer_Behavior_DashBoard.pbix)]. (You'll have to download it)
+An interactive Power BI dashboard used to explore customer behavior and sales trends can be found here: [[Customer_Behavior_DashBoard.pbix](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/Customer_Behavior_DashBoard.pbix)]. (You'll have to download it)
 
 
 
