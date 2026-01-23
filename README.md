@@ -35,7 +35,13 @@ Behavioral data: previous purchases, purchase frequency, subscription status
 Promotional data: discount applied
 Customer feedback: review rating
 
+
+![Data_Analysis_Costumer_Behavior](FullTable.png) ![Data_Analysis_Costumer_Behavior](Field_Table.png)
+
+
 During the preparation phase, missing review ratings were imputed using the median rating per category, column names were standardized, categorical purchase frequencies were converted into numeric values (days), and redundant promotional variables were removed to avoid duplicated information.
+
+
 
 
 
