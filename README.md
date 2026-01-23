@@ -129,5 +129,5 @@ Based on the insights above, the business should consider the following actions:
 
 
 
-Final Screenshots: The complete Dashboard
+Final Screenshot: The complete Dashboard
 ![Data_Analysis_Costumer_Behavior](Customer_Behavior_Dashboard.png)
