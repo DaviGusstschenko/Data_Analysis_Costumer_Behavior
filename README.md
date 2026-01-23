@@ -124,3 +124,10 @@ Based on the insights above, the business should consider the following actions:
 - Leverage high-performing product categories, particularly Clothing, when launching promotions.
 - Use discounts strategically, targeting customers who already exhibit higher-than-average spending behavior.
 - Invest in top-rated products, as customer satisfaction aligns strongly with sales performance.
+
+
+
+
+
+Final Screenshots: The complete Dashboard
+[[Customer_Behavior_Dashboard.png](https://github.com/DaviGusstschenko/Data_Analysis_Costumer_Behavior/blob/main/Customer_Behavior_Dashboard.png)]
