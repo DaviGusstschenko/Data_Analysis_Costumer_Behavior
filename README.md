@@ -89,24 +89,8 @@ Purchase frequency, when converted into numeric days, reveals that more frequent
 
 
 
-### Category 3: Subscription & Loyalty Analysis
 
-- Main Insight 1:
-Subscribed customers generate higher total revenue compared to non-subscribers.
-- Main Insight 2:
-Repeat buyers (more than five previous purchases) are more likely to be subscribed, reinforcing the relationship between loyalty and subscriptions.
-- Main Insight 3:
-While the subscriber base is smaller, its revenue contribution is disproportionately high.
-- Main Insight 4:
-Subscription status can be used as a proxy for customer lifetime value.
-
-[Visualization: Subscription Status vs Revenue]
-
-
-
-
-
-### Category 4: Product & Category Performance
+### Category 3: Product & Category Performance
 
 - Main Insight 1:
 Clothing is the top-performing category in both total sales and revenue.
@@ -114,11 +98,10 @@ Clothing is the top-performing category in both total sales and revenue.
 Accessories and Footwear show moderate performance, while Outerwear contributes the least.
 - Main Insight 3:
 Certain products consistently rank among the highest in average review ratings, indicating quality-driven demand.
-
 - Main Insight 4:
 Products with higher discount application rates still maintain strong sales volumes, suggesting effective promotional strategies.
 
-[Visualization: Sales and Revenue by Category]
+![Data_Analysis_Costumer_Behavior](Sales_by_Category.png)
 
 
 
