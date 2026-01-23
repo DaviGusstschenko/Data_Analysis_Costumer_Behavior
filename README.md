@@ -130,4 +130,4 @@ Based on the insights above, the business should consider the following actions:
 
 
 Final Screenshots: The complete Dashboard
-[[Customer_Behavior_Dashboard.png](https://github.com/DaviGusstschenko/Data_Analysis_Costumer_Behavior/blob/main/Customer_Behavior_Dashboard.png)]
+![Data_Analysis_Costumer_Behavior](Customer_Behavior_Dashboard.png)
