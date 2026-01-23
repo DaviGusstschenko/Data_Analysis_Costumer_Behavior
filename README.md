@@ -15,9 +15,9 @@ behavior impact revenue generation and overall customer value. The insights aim 
 - Subscription & Loyalty Analysis
 - Product & Category Performance
 
-The Python code used to inspect and clean the data for this analysis can be found here: [SQL cleaning & inspection link].
-Targeted SQL queries addressing specific business questions can be found here: [SQL business questions link].
-An interactive Power BI dashboard used to explore customer behavior and sales trends can be found here: [Power BI dashboard link].
+The Python code used to inspect and clean the data for this analysis can be found here: [Costumer_Data_Cleaning.py].
+Targeted SQL queries addressing specific business questions can be found here: [Data_analysis_SQL.sql].
+An interactive Power BI dashboard used to explore customer behavior and sales trends can be found here: [Customer_Behavior_Dashboard.png].
 
 
 
