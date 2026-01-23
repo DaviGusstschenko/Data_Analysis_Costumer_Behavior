@@ -60,6 +60,7 @@ is associated with higher overall revenue contribution, suggesting loyalty-drive
 - Subscribed and repeat customers contribute disproportionately to total revenue.
 
 The full dashboard for you to look: [[Customer_Behavior_Dashboard.png](https://github.com/DaviGusstschenko/Data_Analysis_Costumer_Behavior/blob/main/Customer_Behavior_Dashboard.png)]
+or you can just download it the complete Bi Dashboard in the beginning of the "README.md" page
 
 ## Insights Deep Dive
 
