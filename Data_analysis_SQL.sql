@@ -89,3 +89,7 @@ SELECT
 FROM mytable
 GROUP BY age_group
 ORDER BY total_revenue desc;
+
+
+-- ALL THE ANSWERS ARE IN THE "SQL_Answers.png" FILE
+
