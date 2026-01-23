@@ -59,9 +59,7 @@ is associated with higher overall revenue contribution, suggesting loyalty-drive
 - Customer age and purchasing history are strong indicators of lifetime value.
 - Subscribed and repeat customers contribute disproportionately to total revenue.
 
-
-
-
+The full dashboard for you to look: [[Customer_Behavior_Dashboard.png](https://github.com/DaviGusstschenko/Data_Analysis_Costumer_Behavior/blob/main/Customer_Behavior_Dashboard.png)]
 
 ## Insights Deep Dive
 
