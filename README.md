@@ -19,7 +19,7 @@ The Python code used to inspect and clean the data for this analysis can be foun
 
 Targeted SQL queries addressing specific business questions can be found here: [[Data_analysis_SQL.sql](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/Data_analysis_SQL.sql)].
 
-An interactive Power BI dashboard used to explore customer behavior and sales trends can be found here: [[Customer_Behavior_DashBoard.pbix]([https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/Customer_Behavior_DashBoard.pbix])]. (You'll have to download it)
+An interactive Power BI dashboard used to explore customer behavior and sales trends can be found here: [[Customer_Behavior_DashBoard.pbix](https://github.com/DaviGusstschenko/Data_Analysis_Customer_Behavior/blob/main/Customer_Behavior_DashBoard.pbix)]. (You'll have to download it)
 
 
 
